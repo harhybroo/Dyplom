@@ -1,0 +1,79 @@
+.profile {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background: var(--secondary-color);
+    border-radius: 6px;
+    padding: 15px;
+    .top {
+        .title {
+            font-size: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        .role_admin {
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            color: #ee14dc;
+        }
+        .role_user {
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            color: #142aee;
+        }
+    }
+}
+.view {
+    margin-top: 10px;
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+    &_info {
+        margin-top: 70px;
+    }
+    height: 400px;
+}
+.fields {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
+
+    .field {
+        display: flex;
+        align-items: center;
+        height: 60px;
+        width: 600px;
+        gap: 20px;
+        &_info {
+            display: flex;
+            height: 60px;
+            gap: 20px;
+            align-items: center;
+        }
+        &_title {
+            font-weight: 600;
+        }
+        &_text {
+        }
+    }
+}
+.field_icon {
+    width: 30px;
+    height: 30px;
+}
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}

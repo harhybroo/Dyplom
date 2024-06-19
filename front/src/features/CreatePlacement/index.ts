@@ -1,0 +1,10 @@
+import { GarageForm } from "./ui/GarageForm/GarageForm";
+import { OfficeForm } from "./ui/OfficeForm/OfficeForm";
+import { PlacementForm } from "./ui/PlacementForm/PlacementForm";
+import { StorageForm } from "./ui/StorageForm/StorageForm";
+import { TradingForm } from "./ui/TradingForm/TradingForm";
+export { OfficeForm };
+export { TradingForm };
+export { StorageForm };
+export { PlacementForm };
+export { GarageForm };

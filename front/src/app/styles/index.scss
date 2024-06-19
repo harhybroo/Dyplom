@@ -1,0 +1,31 @@
+@import "./variables/globals";
+@import "./reset";
+
+body {
+    font: var(--font-m);
+    color: var(--primary-color);
+    svg {
+        fill: var(--svg-fill-color);
+    }
+    ::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+    }
+    ::-webkit-scrollbar-track {
+        background: var(--scroll-track-color);
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: var(--scroll-thumb-color);
+    }
+}
+
+.app {
+    min-height: 100vh;
+    background: var(--bg-color);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}

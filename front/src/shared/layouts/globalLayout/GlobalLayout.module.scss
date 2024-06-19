@@ -1,0 +1,9 @@
+.content_wrapper {
+    flex-grow: 1;
+    background: var(--bg-color);
+    padding: 10px;
+    overflow: auto;
+    width: 100%;
+    margin: 0 auto;
+    height: calc(100vh - 70px);
+}

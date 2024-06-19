@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    height: var(--header-height);
+    width: 100%;
+    background: var(--header-bg-color);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 2px solid #293447;
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 250px;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        .icon {
+            width: 40px;
+            height: 40px;
+            fill: white;
+        }
+        .title {
+            font-weight: 600;
+            font-size: 22px;
+            color:white;
+        }
+    }
+}
+.center {
+}
+.right {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.authed {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: flex-end;
+    position: relative;
+    .more {
+        width: 40px;
+        height: 40px;
+        svg {
+            width: 40px;
+            height: 40px;
+            fill: white;
+        }
+    }
+    .user {
+        width: 40px;
+        height: 40px;
+        svg {
+            width: 40px;
+            height: 40px;
+            fill: white;
+        }
+    }
+    .userInfo {
+        top: 50px;
+        border-radius: 6px;
+    }
+    .userActions {
+        top: 50px;
+        border-radius: 6px;
+    }
+}

@@ -1,0 +1,119 @@
+.placement {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    &_left {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 700px;
+    }
+    &_right {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 700px;
+    }
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    &_title {
+        font-weight: 500;
+    }
+    &_desc {
+        font-size: 14px;
+        color: #000000;
+    }
+}
+.amenities {
+    list-style: none;
+    margin: 28px auto 0;
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 700px;
+    height: 400px;
+    background: var(--secondary-color);
+    justify-items: center;
+    align-items: center;
+    &_item {
+        width: 300px;
+    }
+}
+.desc {
+    width: 700px;
+    height: 200px;
+    &_additional {
+        width: 700px;
+        height: 200px;
+    }
+}
+.create {
+    width: 300px;
+    height: 40px;
+    background: var(--secondary-color);
+}
+.image_block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    &_form {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        div {
+            width: 400px !important;
+        }
+        input {
+            display: none;
+        }
+    }
+
+    &_preview {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-gap: 25px 5px;
+        img {
+            object-fit: cover;
+            width: 200px;
+            height: 200px;
+            border-radius: 6px;
+        }
+    }
+}
+
+.city {
+    div {
+        width: 250px;
+    }
+}
+.num {
+    div {
+        width: 100px;
+    }
+}
+.square {
+    div {
+        width: 100px;
+    }
+}
+.error {
+    color: rgb(241, 22, 77);
+}
+.success {
+    width: 500px;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1500px) {
+    .placement_right {
+        width: 550px;
+    }
+}

@@ -1,0 +1,17 @@
+.info {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &_admin {
+        height: 70px;
+    }
+}
+.item {
+    border-radius: 6px;
+    height: 30px;
+    &:hover {
+        background: var(--modal-hover-bg-color);
+    }
+}

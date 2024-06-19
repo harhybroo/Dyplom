@@ -1,0 +1,21 @@
+.info {
+    width: 120px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile {
+    border-radius: 6px;
+    height: 30px;
+    &:hover {
+        background: var(--modal-hover-bg-color);
+    }
+}
+.logout {
+    border-radius: 6px;
+    height: 30px;
+    &:hover {
+        background: rgb(255, 87, 87);
+    }
+}

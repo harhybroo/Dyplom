@@ -1,0 +1,16 @@
+.placement_list {
+    margin: 28px auto 0;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 55px 5px;
+}
+@media (max-width: 1500px) {
+    .placement_list {
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 55px 5px;
+    }
+}

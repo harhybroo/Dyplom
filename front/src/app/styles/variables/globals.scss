@@ -1,0 +1,45 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap";
+
+:root {
+    --font-family-main: "Inter", sans-serif;
+    --font-size-m: 16px;
+    --font-line-m: 24px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+    --font-size-l: 24px;
+    --font-line-l: 32px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+    // size
+    --header-height: 70px;
+
+    // index
+    --modal-z-index: 10;
+    --info-z-index: 5;
+    --dropdown-z-index: 6;
+    //modal
+    --overlay-bg-color: rgba(4, 5, 8, 0.623);
+    --modal-bg-color: #2c3ee0;
+    --modal-hover-bg-color: rgb(24, 26, 173);
+    //colors
+    --svg-fill-color: #000000;
+    --bg-color: #d5f4f8;
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --primary-inverted-color: #ffffff;
+    --secondary-inverted-color: #000000;
+    --link-color: #3e78eb;
+    --link-hover-color: #d942f7;
+    --box-shadow-color: #fff;
+    --disabled-color: #c3c3c3;
+    --checkbox-checked-color: #3e78eb;
+    //header
+    --header-bg-color: #2c3ee0;
+    --border-color: #000000;
+    //cities
+    --city-letter-color: #0df8f8;
+    --city-list-color: #fff;
+    --city-active-color: #908eff;
+    //scroll
+    --scroll-track-color: #ffffff;
+    --scroll-thumb-color: #2c3ee0;
+}

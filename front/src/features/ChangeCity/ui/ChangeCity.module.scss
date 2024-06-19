@@ -1,0 +1,37 @@
+.city_list {
+    width: 1050px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 25px 5px;
+    list-style: none;
+    justify-items: center;
+}
+
+.city_list {
+    overflow: auto;
+    p {
+        width: 150px;
+    }
+}
+.city_letter {
+    width: 150px;
+    color: var(--city-letter-color);
+}
+.city_letter_list {
+    width: 150px;
+    color: var(--city-list-color);
+    list-style: none;
+}
+
+.city {
+    color: white;
+    width: 150px;
+    &:hover {
+        color: var(--city-active-color);
+    }
+}
+.active {
+    color: var(--city-active-color);
+}

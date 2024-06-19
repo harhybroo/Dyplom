@@ -1,0 +1,13 @@
+.info {
+    position: absolute;
+    z-index: var(--info-z-index);
+    background: var(--secondary-color);
+}
+
+.info_wrapper {
+    color: var(--primary-color);
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

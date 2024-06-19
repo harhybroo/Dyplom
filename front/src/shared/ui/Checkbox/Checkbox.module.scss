@@ -1,0 +1,40 @@
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.mark {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 8px;
+    background-color: var(--secondary-color);
+}
+
+.checkbox input[type="checkbox"]:checked + .mark {
+    background-color: var(--checkbox-checked-color);
+}
+
+.mark:after {
+    content: "";
+    display: none;
+}
+.info {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    svg {
+        width: 25px;
+        height: 25px;
+    }
+}

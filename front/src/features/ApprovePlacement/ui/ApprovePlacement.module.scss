@@ -1,0 +1,60 @@
+.delete {
+    background: var(--secondary-color);
+    display: flex;
+    width: 100px;
+    border-left: 1px solid rgb(255 255 255 / 9%);
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+}
+.icon {
+    fill: rgb(51, 255, 0);
+    width: 40px;
+    height: 40px;
+}
+.warn {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title {
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .confirm {
+        background: rgb(61, 184, 16);
+        padding: 5px;
+        height: 40px;
+        border-radius: 6px;
+        width: 100px;
+        color: white;
+        transition: all 0.2s linear;
+        &:hover {
+            background: rgb(38, 233, 35);
+            box-shadow: 0 0 3px rgb(51, 229, 69);
+        }
+    }
+    .cancel {
+        background: rgb(40, 39, 39);
+        padding: 5px;
+        height: 40px;
+        border-radius: 6px;
+        width: 100px;
+        color: white;
+        transition: all 0.2s linear;
+        &:hover {
+            background: rgb(0, 0, 0);
+            box-shadow: 0 0 3px rgb(114, 114, 114);
+        }
+    }
+}
